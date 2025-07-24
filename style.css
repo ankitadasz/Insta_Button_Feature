@@ -16,7 +16,7 @@ body{
 }
 .box{
     width: 23%;
-    height: 75%;
+    height: 70%;
     background-color:#e8daef;
     border-radius: 40px;
 }
@@ -27,4 +27,32 @@ body{
     object-position: center;
     padding: 20px;
     border-radius: 40px;
+}
+h1,h5{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+h5{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.box #btn{
+    display: block;
+    margin: 40px auto;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 40px;
+    background-color: rgb(160, 122, 195);
+    border: 2px solid black;
+    transition: background-color 0.3s ease;
+}
+.box #btn:hover{
+    cursor: pointer;
+    background-color: hsl(300, 38%, 63%);
+}
+.box #btn:active{
+    transform: scale(0.9);
 }
