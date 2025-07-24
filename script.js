@@ -25,3 +25,5 @@ img.addEventListener("dblclick", function () {
     love.style.opacity = "0";
   }, 1000);
 });
+
+const main=document.querySelector("body");
