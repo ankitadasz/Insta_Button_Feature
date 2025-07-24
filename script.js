@@ -27,3 +27,10 @@ img.addEventListener("dblclick", function () {
 });
 
 const main=document.querySelector("body");
+const cursor=document.querySelector(".cursor");
+main.addEventListener("mousemove",function(move){
+         cursor.style.left=move.x+"px";
+         cursor.style.top=move.y+"px";
+
+
+})
