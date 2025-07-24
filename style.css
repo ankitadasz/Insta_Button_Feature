@@ -1,59 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html,body{
-    width: 100%;
-    height: 100%;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(117,86,204,1) 0%, rgba(213,105,167,1) 90% );
-   
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(117, 86, 204, 1) 0%,
+    rgba(213, 105, 167, 1) 90%
+  );
 }
-body{
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.box{
-    width: 23%;
-    height: 70%;
-    background-color:#e8daef;
-    border-radius: 40px;
+.box {
+  width: 23%;
+  height: 70%;
+  background-color: #e8daef;
+  border-radius: 40px;
 }
-.box img{
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-    object-position: center;
-    padding: 20px;
-    border-radius: 40px;
+.box img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  object-position: center;
+  padding: 20px;
+  border-radius: 40px;
 }
-h1,h5{
-    text-align: center;
+h1,
+h5 {
+  text-align: center;
 }
-h1{
-    font-size: 40px;
+h1 {
+  font-size: 40px;
 }
-h5{
-    margin-top: 20px;
-    font-size: 30px;
+h5 {
+  margin-top: 20px;
+  font-size: 30px;
 }
-.box #btn{
-    display: block;
-    margin: 35px auto;
-    padding: 12px;
-    font-size: 15px;
-    font-weight: 600;
-    border-radius: 40px;
-    background-color: rgb(160, 122, 195);
-    border: 2px solid black;
-    transition: background-color 0.3s ease;
+.box #btn {
+  display: block;
+  margin: 35px auto;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 40px;
+  background-color: rgb(160, 122, 195);
+  border: 2px solid black;
+  transition: background-color 0.3s ease;
 }
-.box #btn:hover{
-    cursor: pointer;
-    background-color: hsl(300, 38%, 63%);
+.box #btn:hover {
+  cursor: pointer;
+  background-color: hsl(300, 38%, 63%);
 }
-.box #btn:active{
-    transform: scale(0.9);
+.box #btn:active {
+  transform: scale(0.9);
 }
