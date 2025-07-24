@@ -15,7 +15,8 @@ body{
     align-items: center;
 }
 .box{
-    width: 25%;
+    width: 23%;
     height: 70%;
-    background-color: azure;
+    background-color: rgb(236, 219, 237);
+    border-radius: 30px;
 }
