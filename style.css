@@ -13,6 +13,7 @@ body{
      display: flex;
     justify-content: center;
     align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .box{
     width: 23%;
@@ -40,7 +41,7 @@ h5{
 }
 .box #btn{
     display: block;
-    margin: 40px auto;
+    margin: 35px auto;
     padding: 12px;
     font-size: 15px;
     font-weight: 600;
